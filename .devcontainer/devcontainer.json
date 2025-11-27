@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && bun install"
+  "postCreateCommand": "bun install"
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
