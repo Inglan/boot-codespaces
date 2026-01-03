@@ -21,7 +21,7 @@ export async function createCodespace() {
   const response = await octokit.request(
     "POST /repos/{owner}/{repo}/codespaces",
     {
-      owner: "Inglan",
+      owner: "ingoau",
       repo: "boot-codespaces",
       ref: "main",
       machine: "standardLinux32gb",
